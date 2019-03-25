@@ -10,7 +10,6 @@
 // console.log(navigator.appVersion);
 
 /* Object Literals */
-
 const book1 = {
   title: "Book One",
   author: "John Doe",
@@ -21,3 +20,5 @@ const book1 = {
 };
 
 console.log(book1.getSummary());
+console.log(Object.values(book1));
+console.log(Object.keys(book1));
